@@ -10,7 +10,7 @@ package azureopenai
 import (
 	"context"
 	"errors"
-	"github.com/Azure/azure-sdk-for-go/azcore"
+	"github.com/Azure/azure-sdk-for-go/sdk/azcore"
 	"github.com/Azure/azure-sdk-for-go/sdk/azcore/policy"
 	"github.com/Azure/azure-sdk-for-go/sdk/azcore/runtime"
 	"net/http"
